@@ -1,0 +1,46 @@
+{
+  "307a0279-32ca-4a53-83c2-21b7a0df4510": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "Excel",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1599/1.0.1599.3017/excel/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excel"
+    },
+    "datasets": {
+      "D2DBBA253DB06FC0!1296": {
+        "dataSources": {
+          "Table4": {
+            "tableName": "Table4"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Table4"
+    ],
+    "dependencies": {
+      "fileSource": "f462a3dd-fce7-4dd3-a239-b306ec4dcb88"
+    },
+    "dependents": [],
+    "id": "307a0279-32ca-4a53-83c2-21b7a0df4510"
+  },
+  "f462a3dd-fce7-4dd3-a239-b306ec4dcb88": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "OneDrive",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1586/1.0.1586.2912/onedrive/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedrive"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "307a0279-32ca-4a53-83c2-21b7a0df4510"
+    ],
+    "id": "f462a3dd-fce7-4dd3-a239-b306ec4dcb88"
+  }
+}
